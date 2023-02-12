@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(57, 144, 251);
+}
+
+main {
+    width: 400px;
+    height: 420px;
+    border: 2px solid gray;
+    background-color: #3A4255;
+    margin: auto;
+    border-radius:20px ;
+    position: relative;
+    margin-top: 5%;
+}
+
+div.signUp {
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+div.who {
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #4378AB;
+    font-size: 14px;
+}
+
+div.cliparts {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+img.left {
+    margin-right: 25px;
+    background-color: yellow;
+}
+
+img.center {
+    background-color: orange;
+}
+
+img.right {
+    margin-left: 25px;
+    background-color: #6ED5D3;
+}
+
+h6 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h6.yellow {
+    margin-right: 25px;
+    color: yellow;
+}
+
+h6.orange {
+    color: orange;
+}
+
+h6.blue {
+    margin-left: 25px;
+    color: #6ED5D3;
+}
+
+div.middleContainer {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+div.form {
+    border: 1px solid lightblue;
+    padding: 8px 50px;
+    background-color: #3A4255;
+    display: inline-flex;
+    border-radius: 30px;
+    color: #4A95C9;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+
+input {
+    border: 0;
+    border: 1px solid #3A4255;
+    background-color: #3A4255;
+}
+
+button {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border: 0;
+    padding: 16px 125px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #E443B8, #EC7B1C);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+div.one {
+    margin-left: 100px;
+    display: inline;
+    color: #fff;
+    font-size: 12px;
+    justify-content: center;
+}
+
+a {
+    color: orange;
+    font-style: italic;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <div class="signUp">
+             <i>Login</i>
+        </div>
+
+        <div class="who">
+            WHO ARE YOU?
+        </div>
+
+        <div class="cliparts">
+            <div class="mother">
+            <img src="assets/Caricatura_de_una_chica_soriendo.svg" class="left">
+            <h6 class="yellow">PARENT</h6>
+            </div>
+
+            <div class="child">
+            <img src="assets/smiling-face-of-a-child-2.svg" class="center">
+            <h6 class="orange">CHILD</h6>
+            </div>
+
+            <div class="teacher">
+            <img src="assets/publicdomainq-man-physical_education_teacher.svg" class="right">
+            <h6 class="blue">TEACHER</h6>
+            </div>
+        </div>
+
+        <div class="middleContainer">
+            <div class="form">
+                <div class="inside">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder=" Username">
+                </div>
+            </div>
+
+        <div class="form">
+                <div class="inside">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder=" Password">
+                </div>
+            </div>
+        </div>
+        <div class="login2">
+            <button><a href="subjects.html">Login</a> </button>
+        </div>
+    </main>
+</body>
+</html>
